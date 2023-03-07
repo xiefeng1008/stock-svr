@@ -1,0 +1,11 @@
+server:
+  port: 8088
+spring:
+  application:
+    name: stock-svr
+
+  datasource:
+    url: jdbc:mysql://123.60.178.171:3306/stock_y_db?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&serverTimezone=Asia/Shanghai
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
